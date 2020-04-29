@@ -21,13 +21,9 @@
   display: none;
 }
 
-#wall div.parent div#tag-5.slick {
-  display: none;
-}
 
-#wall div.parent div > div#tag-6 {
-  display: none;
-}
+
+
 /*
 div#wall div.parent div:last-child div#tag-6
 */
@@ -36,6 +32,13 @@ div#wall div.parent div:last-child div#tag-6
   display: none;
 }
 
+#wall div.parent div div#tag-6 {
+  display: none;
+}
+
+body #wall div.parent div#tag-5.slick {
+  display: none;
+}
 /*
 <div id="wall">
   <div class="tag-1"></div>
